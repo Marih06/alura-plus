@@ -3,11 +3,15 @@
     --preto-principal: #00030c;
     --botao-azul: #167bf7;
     --cinzinha: #c0c0c0;
+    --fonte-principal: "inter";
 }
 
 body{
     background-color: var(--preto-principal);
     color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
 }
 
 *{
@@ -27,10 +31,15 @@ body{
     grid-template-columns: 50% 50%;
 }
 
-.container_botao {
+.container__botao {
     background-color: var(--botao-azul);
     border-radius: 5px;
-    padding: 5;
+    padding: 10px;
     color: var(--branco-principal);  
     display: block;
+}
+
+.botao_secundario{
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
 }
