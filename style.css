@@ -96,7 +96,7 @@ body{
     padding: 2em;
 }
 
-.dipositivos__lista{
+.dispositivos__lista{
     display: flex;
     justify-content: center;
     list-style-type: none;
@@ -112,12 +112,13 @@ body{
     color: var(--branco-principal);
 }
 
-.lista__item{
-    font-size: 32px;
+.lista__link a {
+    margin-left: 1em;
     color: var(--branco-principal);
+    text-decoration: none;
 }
 
-.lista__link a{
+.rodape__lista{
     display: flex;
     list-style-type: none;
     justify-content: center;
@@ -143,10 +144,11 @@ body{
 }
 
 .lista__link a:active{
-    color: purple;
+    color:purple;
 }
 
 .container__botao:hover{
     background-color: var(--botao-azul-efeito);
     color: var(--preto-principal);
 }
+
